@@ -8,7 +8,7 @@ Sample Node App with Redis for App42 PaaS Platform
 
 1. Setup infrastructure for required environment
 2. Create service
-3. Deploy a Note application
+3. Deploy a Node application
 
 ### Setup infrastructure for required environment
 
