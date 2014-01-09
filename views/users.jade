@@ -1,0 +1,16 @@
+
+
+extends layout
+block content
+  h1 Listing users
+    table
+      thead
+        tr
+          th Name
+      tbody
+        - each user in users
+          tr
+            td #{user}
+    br
+
+  a(href="users/new") Add New User
