@@ -10,10 +10,10 @@ var http = require('http');
 var path = require('path');
 
 var redis = require("redis"),
-client = redis.createClient(6379,"127.0.0.1",{no_ready_check: true});
+client = redis.createClient(42461,"54.208.130.57",{no_ready_check: true});
 // client = redis.createClient(<VM PORT>,"VM IP",{no_ready_check: true});
 
-client.auth("mypass", function() {
+client.auth("aobalvmyjd7afa8p5e7wpx1erlulsydw", function() {
 // client.auth("<PASSWORD>", function() {
   console.log('Redis client connected');
 });
